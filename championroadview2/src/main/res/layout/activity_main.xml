@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333a48"
+    tools:context=".ExampleActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <someday.championroadview.GuildChampionRoadView
+            android:layout_marginTop="16dp"
+            android:id="@+id/guildchampionroadview3"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+        <someday.championroadview.GuildChampionRoadView
+            android:layout_marginTop="16dp"
+            android:id="@+id/guildchampionroadview4"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+        <someday.championroadview.GuildChampionRoadView
+            android:id="@+id/guildchampionroadview1"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+        <someday.championroadview.GuildChampionRoadView
+            android:layout_marginTop="16dp"
+            android:id="@+id/guildchampionroadview2"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

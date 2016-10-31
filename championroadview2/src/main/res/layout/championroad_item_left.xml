@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    >
+    <TextView
+        android:id="@+id/guild_name"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:background="@drawable/bg_2c323e_50r"
+        android:paddingLeft="24dp"
+        android:paddingRight="8dp"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        />
+    <ImageView
+        android:id="@+id/guild_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:padding="3dp"
+        android:background="@drawable/bg_33000000_50r"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>

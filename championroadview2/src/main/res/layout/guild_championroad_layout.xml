@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <ImageView
+                android:id="@+id/m_championroad_win_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@mipmap/game_guildwar_ic_champion"
+                android:layout_centerInParent="true"
+                />
+
+            <someday.championroadview.ChampionRoadView
+                android:id="@+id/championroadview_left"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                app:mode="left"
+                android:layout_toLeftOf="@id/m_championroad_win_icon"
+                android:layout_marginTop="@dimen/championroad_item_layout_margin_top"
+                android:layout_marginBottom="@dimen/championroad_item_layout_margin_bottom"
+                />
+            <someday.championroadview.ChampionRoadView
+                android:id="@+id/championroadview_right"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                app:mode="right"
+                android:layout_toRightOf="@id/m_championroad_win_icon"
+                android:layout_marginTop="@dimen/championroad_item_layout_margin_top"
+                android:layout_marginBottom="@dimen/championroad_item_layout_margin_bottom"
+                />
+
+    <LinearLayout
+                android:id="@+id/championroadview_guilds_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_toLeftOf="@+id/championroadview_left"
+                >
+                <include layout="@layout/championroad_item_left"/>
+                <include layout="@layout/championroad_item_left"/>
+                <include layout="@layout/championroad_item_left"/>
+                <include layout="@layout/championroad_item_left"/>
+                <include layout="@layout/championroad_item_left"/>
+                <include layout="@layout/championroad_item_left"/>
+                <include layout="@layout/championroad_item_left"/>
+                <include layout="@layout/championroad_item_left"/>
+            </LinearLayout>
+    <LinearLayout
+                android:id="@+id/championroadview_guilds_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/championroadview_right"
+                >
+                <include layout="@layout/championroad_item_right"/>
+                <include layout="@layout/championroad_item_right"/>
+                <include layout="@layout/championroad_item_right"/>
+                <include layout="@layout/championroad_item_right"/>
+                <include layout="@layout/championroad_item_right"/>
+                <include layout="@layout/championroad_item_right"/>
+                <include layout="@layout/championroad_item_right"/>
+                <include layout="@layout/championroad_item_right"/>
+            </LinearLayout>
+</merge>
