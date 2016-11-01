@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/championroadview.iml" filepath="$PROJECT_DIR$/championroadview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/championroadview2/championroadview2.iml" filepath="$PROJECT_DIR$/championroadview2/championroadview2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#333a48"
+    tools:context=".ExampleActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:textColor="#fff"
+            android:text="8强左"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <someday.championroadview.ChampionRoadView
+            android:layout_width="match_parent"
+            android:layout_height="246dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:textColor="#fff"
+            android:text="8强右"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <someday.championroadview.ChampionRoadView
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            app:mode="right"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:textColor="#fff"
+            android:text="16进8"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <someday.championroadview.GuildChampionRoadView
+            android:layout_marginTop="16dp"
+            android:id="@+id/guildchampionroadview3"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:textColor="#fff"
+            android:text="8进4"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <someday.championroadview.GuildChampionRoadView
+            android:layout_marginTop="16dp"
+            android:id="@+id/guildchampionroadview4"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:textColor="#fff"
+            android:text="半决赛"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <someday.championroadview.GuildChampionRoadView
+            android:id="@+id/guildchampionroadview1"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:textColor="#fff"
+            android:text="结束"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <someday.championroadview.GuildChampionRoadView
+            android:layout_marginTop="16dp"
+            android:id="@+id/guildchampionroadview2"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
